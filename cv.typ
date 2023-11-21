@@ -206,7 +206,7 @@
 // Projects
 #let cvprojects(info, isbreakable: true) = {
     if info.projects != none {block[
-        == Projects
+        == Open Source Projects
         #for project in info.projects {
             // Parse ISO date strings into datetime objects
             let start = utils.strpdate(project.startDate)
